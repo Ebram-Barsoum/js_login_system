@@ -15,5 +15,5 @@ let logoutBtn = document.getElementById('logout-btn');
 logoutBtn.addEventListener('click', function () {
     window.sessionStorage.removeItem("current-user");
     window.history.length = 0;
-    window.location.href = '/'; 
+    window.location.href = '../index.html'; 
 });
