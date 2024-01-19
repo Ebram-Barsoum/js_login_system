@@ -88,7 +88,7 @@ function signIn(email, password) {
 
     if (currentUser) {
         clear_inputs();
-        window.location.href = '/htmlHub/welcome.html';
+        window.location.href = '/js_login_system/htmlHub/welcome.html';
     }
     else {
         show_popUp("Login Failed. Email or Password is incorrect, Try Again");
