@@ -104,7 +104,7 @@ function SignUp() {
 
         clear_inputs();
 
-        window.location.href = '/';
+        window.location.href = '/js_login_system';
     }
     else {
         show_popUp("This Email Is Already Used, Try another one"); 
